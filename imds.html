@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="humanas.css">
+    <title>Implementação e Manutenção de Sistemas</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__menu__btn" id="menu-btn">
+          <i class="ri-menu-3-line"></i>
+        </div>
+      </div>
+      <ul class="nav__links" id="nav-links">
+        <li><a href="#" onclick="mostrarConteudo('trimestre1')">Primeiro Trimestre</a></li>
+        <li><a href="#" onclick="mostrarConteudo('trimestre2')">Segundo Trimestre</a></li>
+        <li><a href="#" onclick="mostrarConteudo('trimestre3')">Terceiro Trimestre</a></li>
+        <li><button onclick="voltar()">Voltar</button></li>
+      </ul>
+      <a href="#" class="btn btn__large" id="btn-voltar">Voltar</a>
+    </nav>
+
+
+    <div id="trimestre1" class="conteudo" style="display: none;">
+        <h2><a href="https://exemplo.com/link_trimestre1" target="_blank">Título do 1 Trimestre</a></h2>
+        <p>Conteúdo do 1 Trimestre</p>
+
+        <h2><a href="https://exemplo.com/link_trimestre1" target="_blank">Título do 1 Trimestre</a></h2>
+        <p>Conteúdo do 1 Trimestre</p>
+
+        <h2><a href="https://exemplo.com/link_trimestre1" target="_blank">Título do 1 Trimestre</a></h2>
+        <p>Conteúdo do 1 Trimestre</p>
+
+      </div>
+
+      <div id="trimestre2" class="conteudo" style="display: none;">
+        <h2><a href="https://exemplo.com/link_trimestre2" target="_blank">Título do 2 Trimestre</a></h2>
+        <p>Conteúdo do 2 Trimestre</p>
+        <h2><a href="https://exemplo.com/link_trimestre2" target="_blank">Título do 2 Trimestre</a></h2>
+        <p>Conteúdo do 2 Trimestre</p>
+        <h2><a href="https://exemplo.com/link_trimestre2" target="_blank">Título do 2 Trimestre</a></h2>
+        <p>Conteúdo do 2 Trimestre</p>
+      </div>
+
+      <div id="trimestre3" class="conteudo" style="display: none;">
+        <h2><a href="https://exemplo.com/link_trimestre3" target="_blank">Título do 3 Trimestre</a></h2>
+        <p>Conteúdo do 3 Trimestre</p>
+        <h2><a href="https://exemplo.com/link_trimestre2" target="_blank">Título do 2 Trimestre</a></h2>
+        <p>Conteúdo do 2 Trimestre</p>
+        <h2><a href="https://exemplo.com/link_trimestre2" target="_blank">Título do 2 Trimestre</a></h2>
+        <p>Conteúdo do 2 Trimestre</p>
+      </div>
+    
+
+    <section class="section__container about__container" id="about">
+      <div class="about__image">
+        <img src="assets/about.jpg" alt="about" class="about__img" />
+      </div>
+ 
+
+   
+    
+
+    <script src="imds.js"></script>
+  </body>
+</html>

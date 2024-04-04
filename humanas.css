@@ -1,0 +1,26 @@
+.conteudo {
+    display: none;
+    text-align: center; /* Centraliza o texto horizontalmente */
+    margin: 0 auto; /* Centraliza o conteúdo horizontalmente */
+    max-width: 600px; /* Define a largura máxima do conteúdo */
+  }
+  
+ .conteudo h2{
+      font-size: 24px;
+
+    color: aliceblue;
+  }
+
+  #trimestre1 h2 a{
+    color: #ec9956;
+  }
+  #trimestre1 h2 img {
+    width: 100px; 
+    height: auto; 
+    margin: 0 auto;
+}
+
+.cuba{
+  width: 600px; 
+
+}
