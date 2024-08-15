@@ -11,6 +11,11 @@
     color: aliceblue;
   }
 
+  .conteudo h2 :hover{
+    scale: 1.1;
+    transition: ease-in-out 0.3s;
+  }
+
   #trimestre1 h2 a{
     color: #ec9956;
   }
@@ -19,8 +24,24 @@
     height: auto; 
     margin: 0 auto;
 }
+#trimestre2 h2 a{
+  color: #ec9956;
+
+}
+#trimestre2 h2 img {
+  width: 100px; 
+  height: auto; 
+  margin: 0 auto;
+}
+.texto-adc{
+  display: none;
+}
+
 
 .cuba{
   width: 600px; 
 
+}
+ h3{
+  font-weight: bold;
 }
