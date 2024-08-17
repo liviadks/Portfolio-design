@@ -1,6 +1,6 @@
 // botao voltar
 function voltar() {
-  window.location.href = 'index.html'; // Redireciona para a página index.html
+  window.location.href = '../index.html'; // Redireciona para a página index.html
 }
 
 document.getElementById("btn-voltar").addEventListener("click", function(event) {

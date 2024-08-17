@@ -12,36 +12,35 @@ botao.addEventListener('click', function() {
 
 document.getElementById("humanas").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "humanas.html";
+  window.location.href = "./humanas/humanas.html";
 });
-
 document.getElementById("linguagens").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "linguagens.html";
+  window.location.href = ".//linguagens/linguagens.html";
 });
 document.getElementById("matematica").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "matematica.html";
+  window.location.href = ".//matematica/matematica.html";
 });
 document.getElementById("natureza").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "natureza.html";
+  window.location.href = ".//natureza/natureza.html";
 });
 document.getElementById("dds").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "dds.html";
+  window.location.href = ".//dds/dds.html";
 });
 document.getElementById("mds").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "mds.html";
+  window.location.href = ".//mds/mds.html";
 });
 document.getElementById("sda").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "sda.html";
+  window.location.href = ".//bd/bd.html";
 });
 document.getElementById("imds").addEventListener("click", function() {
   // Redirecionando para a nova página
-  window.location.href = "imds.html";
+  window.location.href = ".//imds/imds.html";
 });
 
 

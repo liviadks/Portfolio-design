@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap");
 
+
 :root {
   --primary-color: #FEE1C7;
   --secondary-color: #ec9956;
@@ -12,6 +13,9 @@
     var(--secondary-color)
   );
   --max-width: 1200px;
+}
+main{
+  min-height: 100vh;
 }
 
 * {
@@ -27,8 +31,8 @@
 }
 
 .section__header {
-  margin-bottom: 1rem;
-  font-size: 2rem;
+  margin-bottom: 5rem;
+  font-size: 2.5rem;
   font-weight: 700;
   text-align: center;
 }
@@ -39,6 +43,11 @@
   color: var(--extra-light);
   text-align: center;
   line-height: 1.75rem;
+}
+
+.titulo-materias{
+  width: 100%;
+text-align: center;
 }
 
 .btn {
