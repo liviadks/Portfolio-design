@@ -43,6 +43,10 @@ document.getElementById("imds").addEventListener("click", function() {
   window.location.href = ".//imds/imds.html";
 });
 
+document.getElementById("certificados").addEventListener("click", function() {
+  // Redirecionando para a nova página
+  window.location.href = ".//certificado/certificado.html";
+});
 
 
 
