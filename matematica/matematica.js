@@ -52,3 +52,19 @@ function mostrarConteudo(id) {
      mostrarTexto2 ()
      
     })
+
+    function mostrarTexto3() {
+      var texto = document.getElementById("texto-adc3")
+       
+       if (texto.style.display === "block") {
+         texto.style.display = "none"; 
+       }
+       else {
+         texto.style.display = "block";
+       }
+     }
+     document.getElementById("btn-ver-mais3").addEventListener("click", function(event) {
+      event.preventDefault()
+      mostrarTexto3 ()
+      
+     })

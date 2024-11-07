@@ -33,6 +33,15 @@
   height: auto; 
   margin: 0 auto;
 }
+#trimestre3 h2 a{
+  color: #ec9956;
+
+}
+#trimestre3 h2 img {
+  width: 200px; 
+  height: auto; 
+  margin: 0 auto;
+}
 .texto-adc{
   display: none;
 }

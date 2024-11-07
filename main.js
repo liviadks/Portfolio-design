@@ -42,6 +42,10 @@ document.getElementById("imds").addEventListener("click", function() {
   // Redirecionando para a nova página
   window.location.href = ".//imds/imds.html";
 });
+document.getElementById("pa").addEventListener("click", function() {
+  // Redirecionando para a nova página
+  window.location.href = ".//pa/pa.html";
+});
 
 document.getElementById("certificados").addEventListener("click", function() {
   // Redirecionando para a nova página
