@@ -84,3 +84,50 @@ function mostrarConteudo(id) {
       mostrarTexto4 ()
       
      })
+
+     function mostrarTexto5() {
+      var texto = document.getElementById("texto-adc5")
+       
+       if (texto.style.display === "block") {
+         texto.style.display = "none"; 
+       }
+       else {
+         texto.style.display = "block";
+       }
+     }
+     document.getElementById("btn-ver-mais5").addEventListener("click", function(event) {
+      event.preventDefault()
+      mostrarTexto5 ()
+      
+     })
+     function mostrarTexto6() {
+      var texto = document.getElementById("texto-adc6")
+       
+       if (texto.style.display === "block") {
+         texto.style.display = "none"; 
+       }
+       else {
+         texto.style.display = "block";
+       }
+     }
+     document.getElementById("btn-ver-mais6").addEventListener("click", function(event) {
+      event.preventDefault()
+      mostrarTexto6 ()
+      
+     })
+
+     function mostrarTexto7() {
+      var texto = document.getElementById("texto-adc7")
+       
+       if (texto.style.display === "block") {
+         texto.style.display = "none"; 
+       }
+       else {
+         texto.style.display = "block";
+       }
+     }
+     document.getElementById("btn-ver-mais7").addEventListener("click", function(event) {
+      event.preventDefault()
+      mostrarTexto7 ()
+      
+     })
