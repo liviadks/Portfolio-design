@@ -20,3 +20,34 @@ function mostrarConteudo(id) {
     // mostrar o conteydo da aba clicada
     document.getElementById(id).style.display = "block";
   }
+
+  function mostrarTexto() {
+    var texto = document.getElementById("texto-adc")
+     
+     if (texto.style.display === "block") {
+       texto.style.display = "none"; 
+     }
+     else {
+       texto.style.display = "block";
+     }
+   }
+   document.getElementById("btn-ver-mais").addEventListener("click", function(event) {
+     event.preventDefault()
+     mostrarTexto()
+     
+    })
+    function mostrarTexto2() {
+     var texto = document.getElementById("texto-adc2")
+      
+      if (texto.style.display === "block") {
+        texto.style.display = "none"; 
+      }
+      else {
+        texto.style.display = "block";
+      }
+    }
+    document.getElementById("btn-ver-mais2").addEventListener("click", function(event) {
+     event.preventDefault()
+     mostrarTexto2 ()
+     
+    })

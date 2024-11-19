@@ -46,6 +46,10 @@ document.getElementById("pa").addEventListener("click", function() {
   // Redirecionando para a nova página
   window.location.href = ".//pa/pa.html";
 });
+document.getElementById("ts").addEventListener("click", function() {
+  // Redirecionando para a nova página
+  window.location.href = ".//ts/ts.html";
+});
 
 document.getElementById("certificados").addEventListener("click", function() {
   // Redirecionando para a nova página
