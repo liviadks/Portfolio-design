@@ -1,7 +1,7 @@
 {
-  "name": "port2tri",
+  "name": "portfoliodesign",
   "version": "1.0.0",
-  "description": "Create a stunning and professional portfolio website from scratch with this step-by-step tutorial!",
+  "description": "meu portfolio lindo",
   "main": "main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
