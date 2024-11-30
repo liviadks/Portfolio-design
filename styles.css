@@ -258,8 +258,11 @@ nav {
 
 .service__grid {
   margin-top: 2rem;
-  display: grid;
-  gap: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+  gap: 2rem;
+  flex-wrap: wrap;
 }
 
 .service__card {
@@ -268,8 +271,13 @@ nav {
   background-image: var(--gradient-2);
   border-radius: 1rem;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
-  text-decoration: underline;
-cursor: pointer;
+  text-decoration: none;
+  cursor: pointer;
+
+ 
+  min-width: 250px; 
+  max-width: 300px; 
+  flex: 1; 
 }
 
 .service__card span {

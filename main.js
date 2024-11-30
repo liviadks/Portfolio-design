@@ -4,57 +4,16 @@ const menuBtnIcon = menuBtn.querySelector("i");
 
 var botao = document.getElementById('meuBotao');
 
-botao.addEventListener('click', function() {
-  var novaGuia = window.open('https://www.canva.com/design/DAFfF22N5eU/3cbk-CEfZ4D6fpEbZ4nQnw/edit?utm_content=DAFfF22N5eU&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton', '_blank');
-  novaGuia.focus();
+
+document.getElementById("desenhos").addEventListener("click", function() {
+  // Redirecionando para a nova página
+  window.location.href = ".//desenhos/desenhos.html";
+});
+document.getElementById("design").addEventListener("click", function() {
+  // Redirecionando para a nova página
+  window.location.href = ".//design/design.html";
 });
 
-
-document.getElementById("humanas").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = "./humanas/humanas.html";
-});
-document.getElementById("linguagens").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//linguagens/linguagens.html";
-});
-document.getElementById("matematica").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//matematica/matematica.html";
-});
-document.getElementById("natureza").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//natureza/natureza.html";
-});
-document.getElementById("dds").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//dds/dds.html";
-});
-document.getElementById("mds").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//mds/mds.html";
-});
-document.getElementById("sda").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//bd/bd.html";
-});
-document.getElementById("imds").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//imds/imds.html";
-});
-document.getElementById("pa").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//pa/pa.html";
-});
-document.getElementById("ts").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//ts/ts.html";
-});
-
-document.getElementById("certificados").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//certificado/certificado.html";
-});
 
 
 
