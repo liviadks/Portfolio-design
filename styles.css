@@ -2,8 +2,8 @@
 
 
 :root {
-  --primary-color: #FEE1C7;
-  --secondary-color: #ec9956;
+  --primary-color: #f7dcc5;
+  --secondary-color: #ce8448;
   --extra-light: #f3f4f6;
   --white: #ffffff;
   --gradient-1: linear-gradient(to bottom right, #290E08, #A4643F);
@@ -28,6 +28,29 @@ main{
   max-width: var(--max-width);
   margin: auto;
   padding: 5rem 1rem;
+}
+.card-link{
+  text-decoration: none;
+  color: white;
+  padding: 3.5rem 1rem;
+  text-align: center;
+  background-image: var(--gradient-2);
+  border-radius: 1rem;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  text-decoration: none;
+  cursor: pointer;
+  min-width: 250px; 
+  max-width: 300px; 
+  flex: 1;
+  font-size: 22px;
+}
+.card-link:hover{
+  transform: scale(1.05);
+  transition: 0.2s;
+}
+
+.ri-window-fill{
+  font-size: 28px;
 }
 
 .section__header {
@@ -61,6 +84,10 @@ text-align: center;
   border-radius: 5rem;
   cursor: pointer;
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.btn:hover{
+  transform: scale(1.05);
+  transition: 0.2s;
 }
 
 img {
@@ -185,10 +212,10 @@ nav {
 
 @keyframes moveImage {
   0%, 100% {
-    transform: translateY(-30px); /* Define a posição inicial e final da imagem acima do seu posicionamento normal */
+    transform: translateY(-30px); 
 }
 50% {
-    transform: translateY(10px); /* Define a posição intermediária da imagem abaixo do seu posicionamento normal */
+    transform: translateY(10px);
 }
 }
 
@@ -273,8 +300,6 @@ nav {
   box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
   text-decoration: none;
   cursor: pointer;
-
- 
   min-width: 250px; 
   max-width: 300px; 
   flex: 1; 

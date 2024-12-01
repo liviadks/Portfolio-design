@@ -5,17 +5,6 @@ const menuBtnIcon = menuBtn.querySelector("i");
 var botao = document.getElementById('meuBotao');
 
 
-document.getElementById("desenhos").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//desenhos/desenhos.html";
-});
-document.getElementById("design").addEventListener("click", function() {
-  // Redirecionando para a nova página
-  window.location.href = ".//design/design.html";
-});
-
-
-
 
 menuBtn.addEventListener("click", (e) => {
   navLinks.classList.toggle("open");

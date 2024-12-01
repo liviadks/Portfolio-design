@@ -55,10 +55,6 @@
   height: auto;
 }
 
-.conteudo {
-  padding-bottom: 300px; 
-}
-
 .photo {
   width: 100%; 
   aspect-ratio: 4 /2.8; 
@@ -98,8 +94,10 @@
   flex-direction: column; 
   justify-content: flex-start; 
   align-items: flex-start; 
-  padding-bottom: 1700px;
+  align-self: start;
+  margin-top: 15%;
 }
+
 .conteudo a {
   color: #ff69b4; 
   text-decoration: none; 
@@ -108,6 +106,11 @@
 
 .conteudo a:hover {
   color: #ff1493;
+}
+
+.subtitle{
+  font-weight: 500;
+  margin-top: 3%;
 }
 
 .nav__bar {
