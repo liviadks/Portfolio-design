@@ -255,7 +255,13 @@ nav {
 }
 
 .about__img {
+  height: 345px;
+  width: 305px;
+  border-color: #f3f4f6;
+  object-fit: cover;
+  overflow-clip-margin: unset;
   border-radius: 100%;
+  background: linear-gradient(45deg, #6a5af9, #d66efd);
 }
 
 .about__bg-1,
@@ -266,13 +272,13 @@ nav {
 }
 
 .about__bg-1 {
-  top: 0;
-  left: 0;
+  top: -25px;
+    left: -80px;
 }
 
 .about__bg-2 {
-  right: 0;
-  bottom: 0;
+  right: -60px;
+  bottom: -45px;
 }
 
 .about__content {
